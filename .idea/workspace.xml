@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="" />
+    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="Changing rswag on Gemfile">
+      <change beforePath="$PROJECT_DIR$/config/initializers/rswag-ui.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/rswag_api.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,6 +182,14 @@
       <workItem from="1595819743963" duration="6168000" />
       <workItem from="1596159025233" duration="9384000" />
     </task>
+    <task id="LOCAL-00001" summary="Changing rswag on Gemfile">
+      <created>1596298122471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596298122471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +211,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge branch 'master' of https://github.com/lapenz/rails-api&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="Adding .idea to gitignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding .idea to gitignore." />
+    <MESSAGE value="Changing rswag on Gemfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing rswag on Gemfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595819782441">
@@ -211,6 +223,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="451" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1596246810828" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596299053623">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1596299053623" />
     <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1596160495200">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
