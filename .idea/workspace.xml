@@ -10,16 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/integration/products_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/v1/swagger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-    </list>
+    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
