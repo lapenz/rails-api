@@ -1,16 +1,16 @@
 require 'rails_helper'
 
-RSpec.describe 'Products API', type: :request do
+RSpec.describe 'Categories API', type: :request do
   # initialize test data
-  let!(:products) { create_list(:product, 10) }
-  let(:product_id) { products.first.id }
+  let!(:categories) { create_list(:category, 10) }
+  let(:category_id) { categories.first.id }
 
-  # Test suite for GET /products
-  describe 'GET /products' do
+  # Test suite for GET /categories
+  describe 'GET /categories' do
     # make HTTP get request before each example
-    before { get '/products' }
+    before { get '/categories' }
 
-    it 'returns products' do
+    it 'returns categories' do
       # Note `json` is a custom helper to parse JSON responses
       expect(json).not_to be_empty
       expect(json.size).to eq(10)
@@ -21,14 +21,14 @@ RSpec.describe 'Products API', type: :request do
     end
   end
 
-  # Test suite for GET /products/:id
-  describe 'GET /products/:id' do
-    before { get "/products/#{product_id}" }
+  # Test suite for GET /categories/:id
+  describe 'GET /categories/:id' do
+    before { get "/categories/#{category_id}" }
 
     context 'when the record exists' do
-      it 'returns the todo' do
+      it 'returns the record' do
         expect(json).not_to be_empty
-        expect(json['id']).to eq(product_id)
+        expect(json['id']).to eq(category_id)
       end
 
       it 'returns status code 200' do
@@ -37,28 +37,28 @@ RSpec.describe 'Products API', type: :request do
     end
 
     context 'when the record does not exist' do
-      let(:product_id) { 100 }
+      let(:category_id) { 100 }
 
       it 'returns status code 404' do
         expect(response).to have_http_status(404)
       end
 
       it 'returns a not found message' do
-        expect(response.body).to match(/Couldn't find Product/)
+        expect(response.body).to match(/Couldn't find Category/)
       end
     end
   end
 
-  # Test suite for POST /products
-  describe 'POST /products' do
+  # Test suite for POST /categories
+  describe 'POST /categories' do
     # valid payload
-    let(:valid_attributes) { { title: 'Learn Elm'} }
+    let(:valid_attributes) { { description: 'Learn Elm'} }
 
     context 'when the request is valid' do
-      before { post '/products', params: valid_attributes }
+      before { post '/categories', params: valid_attributes }
 
-      it 'creates a product' do
-        expect(json['title']).to eq('Learn Elm')
+      it 'creates a category' do
+        expect(json['description']).to eq('Learn Elm')
       end
 
       it 'returns status code 201' do
@@ -67,7 +67,7 @@ RSpec.describe 'Products API', type: :request do
     end
 
     context 'when the request is invalid' do
-      before { post '/products', params: { title: '' } }
+      before { post '/categories', params: { description: '' } }
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -75,17 +75,17 @@ RSpec.describe 'Products API', type: :request do
 
       it 'returns a validation failure message' do
         expect(response.body)
-            .to match(/Validation failed: Title can't be blank/)
+            .to match(/Validation failed: Description can't be blank/)
       end
     end
   end
 
-  # Test suite for PUT /products/:id
-  describe 'PUT /products/:id' do
-    let(:valid_attributes) { { title: 'Shopping' } }
+  # Test suite for PUT /categories/:id
+  describe 'PUT /categories/:id' do
+    let(:valid_attributes) { { description: 'Shopping' } }
 
     context 'when the record exists' do
-      before { put "/products/#{product_id}", params: valid_attributes }
+      before { put "/categories/#{category_id}", params: valid_attributes }
 
       it 'updates the record' do
         expect(response.body).to be_empty
@@ -97,23 +97,23 @@ RSpec.describe 'Products API', type: :request do
     end
 
     context 'when the record does not exist' do
-      let(:product_id) { 100 }
+      let(:category_id) { 100 }
 
-      before { put "/products/#{product_id}", params: valid_attributes }
+      before { put "/categories/#{category_id}", params: valid_attributes }
 
       it 'returns status code 404' do
         expect(response).to have_http_status(404)
       end
 
       it 'returns a not found message' do
-        expect(response.body).to match(/Couldn't find Product/)
+        expect(response.body).to match(/Couldn't find Category/)
       end
     end
   end
 
-  # Test suite for DELETE /products/:id
-  describe 'DELETE /products/:id' do
-    before { delete "/products/#{product_id}" }
+  # Test suite for DELETE /categories/:id
+  describe 'DELETE /categories/:id' do
+    before { delete "/categories/#{category_id}" }
 
     it 'returns status code 204' do
       expect(response).to have_http_status(204)
