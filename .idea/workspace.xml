@@ -10,9 +10,72 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="Changing rswag on Gemfile">
-      <change beforePath="$PROJECT_DIR$/config/initializers/rswag-ui.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/rswag_api.rb" beforeDir="false" />
+    <list default="true" id="1bafcc20-b13a-4081-8900-ea505ef8c2fb" name="Default Changelist" comment="Adding Graphql">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/assets/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/assets/require-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/boolean.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/category.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/createproductinput.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/createproductpayload.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/deprecated.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/directive.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/directivelocation.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/enumvalue.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/field.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-BoldItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-LightItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-LightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Thin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-ThinItalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/fonts/webfonts/SalesforceSans-ThinItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/id.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/include.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/inputvalue.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/int.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/iso8601datetime.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/mutation.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/product.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/query.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/schema.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/scripts/filter-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/scripts/focus-active.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/scripts/toggle-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/skip.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/string.doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/styles/_custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/styles/_override.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/styles/graphdoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/styles/graphdoc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/type.spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/doc/schema/typekind.spec.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596298122471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changing gitignore">
+      <created>1599616117062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599616117062</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Graphql">
+      <created>1599627777720</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599627777720</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +289,9 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/lapenz/rails-api&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="Adding .idea to gitignore." />
     <MESSAGE value="Changing rswag on Gemfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing rswag on Gemfile" />
+    <MESSAGE value="Changing gitignore" />
+    <MESSAGE value="Adding Graphql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Graphql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595819782441">

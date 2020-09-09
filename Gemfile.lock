@@ -84,6 +84,7 @@ GEM
     ffi (1.13.1-x86-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    graphql (1.11.4)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jsonapi-renderer (0.2.2)
@@ -206,6 +207,7 @@ DEPENDENCIES
   database_cleaner
   factory_bot_rails (~> 4.0)
   faker
+  graphql
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
