@@ -1,5 +1,7 @@
 # README
 
+[![codecov](https://codecov.io/gh/lapenz/rails-api/branch/master/graph/badge.svg)](https://codecov.io/gh/lapenz/rails-api)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
